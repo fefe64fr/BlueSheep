@@ -35,6 +35,7 @@ namespace BlueSheep.Interface
         {
             if (flag == 0)
             {
+/* ICI ajout*/  FolderBrowserDialog_DofusPath.RootFolder = Environment.SpecialFolder.LocalApplicationData;        
                 FolderBrowserDialog_DofusPath.ShowDialog();
                 TextBox1.Text = FolderBrowserDialog_DofusPath.SelectedPath;
                 BtValider.Text = "Continuer";
